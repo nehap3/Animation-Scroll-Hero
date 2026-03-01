@@ -2,8 +2,7 @@ import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-// 1. Image ko yahan import karo (Ensure file path is correct)
-// Agar image 'src/assets' folder mein hai:
+
 import carImage from "./assets/car.jpg"; 
 
 function App() {
