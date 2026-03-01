@@ -2,6 +2,9 @@
 
 A React application featuring a scroll-triggered car animation using GSAP.
 
+## LIVE 
+https://scrollherocar.netlify.app/
+
 ## Technologies Used
 
 - React (Vite)
