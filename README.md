@@ -1,16 +1,34 @@
-# React + Vite
+# Scroll Hero Car
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application featuring a scroll-triggered car animation using GSAP.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React (Vite)
+- GSAP (GreenSock Animation Platform)
+- ScrollTrigger
+- Tailwind CSS
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Smooth scroll-triggered car animation as you move down the page.
+- Dynamic statistics cards with entry animations.
+- Responsive design built with Tailwind CSS.
+- Clean and modern user interface.
 
-## Expanding the ESLint configuration
+## Setup and Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Run the following command to install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. To create a production build, run:
+   ```bash
+   npm run build
+   ```
